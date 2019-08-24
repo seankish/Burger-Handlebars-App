@@ -1,24 +1,19 @@
 {
-  "name": "burger-handlebars-app",
+  "name": "config",
   "version": "1.0.0",
-  "description": "Burger app using handlebars and mysql",
-  "main": "server.js",
+  "description": "",
+  "main": "connection.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seankish/Burger-Handlebars-App.git"
-  },
-  "author": "Sean Kish",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/seankish/Burger-Handlebars-App/issues"
-  },
-  "homepage": "https://github.com/seankish/Burger-Handlebars-App#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
   }
 }

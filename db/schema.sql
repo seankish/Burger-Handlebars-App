@@ -1,11 +1,12 @@
 
-create database burgers_db;
-use burgers_db;
-create table burgers (
-id int not null auto_increment,
-burger_name varchar(45) not null,
-devoured boolean not null,
-primary key (id)
+CREATE DATABASE burgers_db;
+USE burgers_db;
+
+
+CREATE TABLE burgers
+(
+id int NOT NULL AUTO_INCREMENT,
+burger_name varchar(200) NOT NULL,
+devoured BOOLEAN NOT NULL,
+PRIMARY KEY (id)
 );
-
-
