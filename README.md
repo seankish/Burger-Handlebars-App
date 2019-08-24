@@ -4,7 +4,7 @@
 
 Eat-Da-Burger is a restaurant app that lets users input the names of burgers they'd like to eat.
 
-![Alt text](public/assets/img/burger_app.jpg?raw=true "Burger")
+![Alt text](public/assets/img/burger_app.jpg "Burger")
 
 ## Function
 When a user submits an order (a burger's name), the app will display the burger on the left side of the page -- waiting to be devoured.
